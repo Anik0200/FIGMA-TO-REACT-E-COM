@@ -1,0 +1,17 @@
+.ourProducts {
+  @apply pt-[36px] md:pt-[56px];
+}
+
+.ourProducts .title {
+  @apply mb-[25px] md:mb-[32px];
+}
+
+.ourProducts .products {
+  @apply mb-[32px] gap-[32px]
+
+         grid-cols-1 md:grid-cols-2 lg:grid-cols-4;
+}
+
+.button {
+    @apply mb-[39px] md:mb-[69px]
+}

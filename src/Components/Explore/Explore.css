@@ -1,0 +1,72 @@
+.explore {
+  @apply py-[44px];
+}
+
+.explore .texts {
+  @apply w-full lg:w-2/5;
+}
+
+.explore h2 {
+  @apply lg:w-[347px] w-auto
+
+         lg:text-[40px] md:text-[35px] text-[25px]  leading-[120%];
+}
+
+.explore p {
+  @apply text-[16px] mt-[7px] mb-[25px] lg:w-[283px] w-auto leading-[150%];
+}
+
+.explore .slider {
+  @apply w-full lg:w-3/5;
+}
+
+.explore .slick-active .slide_items {
+  @apply md:h-[486px] h-[150px] lg:px-[12px] md:px-[20px] px-[5px];
+}
+
+.explore .slick-active.slick-current .slide_items {
+  @apply md:h-[582px] h-[200px];
+}
+
+.explore .slick-slider {
+  @apply h-full;
+}
+
+.explore .slick-dots {
+  list-style: none;
+  display: flex !important;
+
+  @apply gap-[20px]  absolute
+
+         lg:left-[52%]  md:left-[53%] left-[53%]
+
+         lg:bottom-[40px] md:bottom-[40px] bottom-[30px];
+}
+
+.explore .slick-dots li button {
+  font-size: 0px;
+  height: 11px;
+  width: 11px;
+  border-radius: 100%;
+  background-color: #d8d8d8;
+  position: relative;
+}
+
+.explore .slick-dots li button::after {
+  @apply md:h-[27px] h-[17px]
+
+           md:w-[27px] w-[17px] rounded-full;
+}
+
+.explore .slick-dots .slick-active button {
+  background-color: #b88e2f;
+}
+
+.explore .slick-dots .slick-active button::after {
+  content: "";
+  position: absolute !important;
+  border: 2px solid #b88e2f !important;
+  left: 50% !important;
+  top: 50% !important;
+  transform: translate(-50%, -50%) !important;
+}

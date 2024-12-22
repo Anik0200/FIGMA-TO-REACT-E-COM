@@ -1,0 +1,47 @@
+.homeBanner {
+  @apply pt-[50px] pb-[50px]
+
+         lg:pt-[150px] lg:pb-[115px];
+}
+
+.text-main {
+  @apply w-[280px] md:w-[500px] lg:w-[643px]
+
+         pt-[62px] pb-[37px]
+
+         pl-[39px] pr-[43px]
+
+         rounded-[10px];
+}
+
+.text-main h2 {
+  @apply text-[16px] tracking-[3px];
+}
+
+.text-main h1 {
+  @apply w-auto md:w-[337px]
+
+         text-[30px] md:text-[52px]
+
+         leading-[35px] md:leading-[65px]
+
+         mt-1 mb-4;
+}
+
+.text-main p {
+  @apply w-[205px] md:w-[424px]
+
+         text-[18px] leading-[24px];
+}
+
+.text-main button {
+  @apply w-[150px] md:w-[190px] lg:w-[222px]
+
+         py-[10px] md:py-[20px] lg:py-[25px]
+
+         px-[20px] md:px-[60px]  lg:px-[71px]
+
+         text-[12px] md:text-[14px]  lg:text-[16px]
+
+         mt-[30px] md:mt-[40px]   lg:mt-[46px];
+}

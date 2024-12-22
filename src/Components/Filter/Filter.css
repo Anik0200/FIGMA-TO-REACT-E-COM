@@ -1,0 +1,47 @@
+.filter {
+  @apply py-[23px];
+}
+
+.filter .filter-main {
+  @apply justify-between flex-col md:flex-row gap-[20px] md:gap-0;
+}
+
+.filter .first {
+  @apply gap-[30px];
+}
+
+.filter .equalizer {
+  @apply gap-[12px] lg:text-[20px] text-[15px];
+}
+
+.filter .reasult {
+  @apply pl-[34px]
+
+         md:gap-[12px] gap-[8px]
+
+         lg:text-[16px] text-[14px];
+}
+
+.filter .second .input-one {
+  @apply gap-[17px];
+}
+
+.filter .second .input-one input {
+  @apply lg:px-[17px] px-[10px]
+
+          lg:h-[55px] h-[35px]
+
+          lg:w-[55px] w-[35px];
+}
+
+.filter .second .input-two {
+  @apply gap-[17px];
+}
+
+.filter .second .input-two input {
+  @apply lg:py-[12px] py-[5px]
+
+         lg:pl-[30px] pl-[10px]
+
+         lg:w-[188px] w-[50px];
+}

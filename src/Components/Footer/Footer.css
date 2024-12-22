@@ -1,0 +1,37 @@
+footer {
+  @apply pt-[48px] pb-[38px];
+}
+
+footer .footer-main {
+  @apply justify-between items-start  flex-col md:flex-row
+
+          gap-[30px] md:gap-0
+
+          lg:mb-[48px] md:mb-[38px] mb-[28px];
+}
+
+footer .logo p {
+  @apply w-[285px] font-[16px]
+
+        lg:mt-[50px] md:mt-[25px] mt-[15px];
+}
+
+footer ul .menu {
+  @apply gap-[46px];
+}
+
+footer li {
+  @apply font-poppins font-medium text-txtPrimary cursor-pointer hover:text-txtSecondary text-[16px];
+}
+
+footer .news-letter p {
+  @apply text-[16px] lg:mb-[50px] md:mb-[25px] mb-[15px];
+}
+
+footer .news-letter input {
+  @apply mr-[11px];
+}
+
+.copyright {
+  @apply lg:pt-[35px] md:pt-[25px] pt-[15px];
+}

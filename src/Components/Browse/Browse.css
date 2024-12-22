@@ -1,0 +1,19 @@
+.browse {
+  @apply pt-[26px] md:pt-[40px] lg:pt-[56px];
+}
+
+.browse .title {
+  @apply mb-[32px] md:mb-[42px] lg:mb-[62px];
+}
+
+.browse .items {
+  @apply flex-col md:flex-row gap-[30px] md:gap-[20px];
+}
+
+.browse .items .item {
+  @apply w-full md:w-1/3;
+}
+
+.browse .items .item p {
+  @apply mt-[10px] md:mt-[20px]  lg:mt-[30px];
+}

@@ -1,0 +1,7 @@
+.shopBanner {
+  @apply pt-[121px] pb-[97px];
+}
+
+.shopBanner .text  h2 {
+    @apply md:text-[48px] text-[38px]
+}

@@ -1,0 +1,27 @@
+.products {
+  @apply md:py-11 py-9;
+}
+
+.products .products-main {
+  @apply gap-[32px] grid-cols-1 md:grid-cols-2 lg:grid-cols-4;
+}
+
+.products .pagination {
+  @apply gap-3 mt-[40px] md:mt-[50px] lg:mt-[70px];
+}
+
+.products .pagination li a {
+  @apply bg-bgPrimary rounded-[10px]
+
+  lg:py-[15px] md:py-[12px] py-[10px]
+
+  lg:px-[27px] md:px-[20px] px-[17px];
+}
+
+.products .pagination .selected a {
+  @apply bg-[#B88E2F];
+}
+
+.products .pagination .previous {
+  @apply hidden;
+}

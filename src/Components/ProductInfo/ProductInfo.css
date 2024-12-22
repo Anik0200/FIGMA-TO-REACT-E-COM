@@ -1,0 +1,17 @@
+.productInfo-main {
+  @apply lg:gap-[37px] md:gap-[27px] gap-[17px];
+}
+
+.productInfo-tabs {
+  @apply lg:gap-[52px] gap-[32px];
+}
+
+.productInfo-tabs .tab {
+  @apply font-poppins font-medium
+
+         lg:text-[24px] md:text-[20px] text-[18px];
+}
+
+.tab-content {
+  @apply md:text-[16px] text-[14px];
+}
